@@ -28,11 +28,8 @@ app.use bodyParser.urlencoded(extended: false)
 app.use cookieParser()
 app.use express.static(path.join(__dirname, "assets"))
 
-###
-Application routes goes here
-Add for each route/*
-###
-# app.use "/", require("./routes/index")
+#Application routes
+app.use require("./routes/index")
 
 # development error handler
 # will print stacktrace
