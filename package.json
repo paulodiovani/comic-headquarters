@@ -1,0 +1,19 @@
+{
+  "name": "comic-hq",
+  "version": "0.1.0",
+  "description": "The webcomic plataform",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "comic",
+    "publish"
+  ],
+  "author": "Paulo Diovani <paulo@diovani.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}
