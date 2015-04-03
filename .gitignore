@@ -4,3 +4,4 @@ app/assets/lib
 .env
 .tmp
 .idea
+.vagrant
